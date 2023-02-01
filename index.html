@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivify - The music app</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src="logo.png" alt = "spotyify">Shivify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Diljit Dosanjh</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/lemonade.jfif" alt="1">
+                    <span class="songName">Lemonade</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="1" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/Jatti-Cover.jpg" alt="1">
+                    <span class="songName">Born To Shine</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="2" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/lemonade.jfif" alt="1">
+                    <span class="songName">Cali</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="3" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/Do-You-Know-1.jpg" alt="1">
+                    <span class="songName">Do You Know</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="4" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/Jatti-Cover.jpg" alt="1">
+                    <span class="songName">Jatti</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="5" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/Lover-1.jpg" alt="1">
+                    <span class="songName">Mera naam</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="6" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/Putt-Jatt-Da-1.jpg" alt="1">
+                    <span class="songName">Putt Jatt Da</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="7" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/Raat-Di-Gedi-Cover.jpg" alt="1">
+                    <span class="songName">Raat Di Gedi</span>
+                    <span class="songlistplay"><span class="timestamp">02:46  <i id="8" class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="songPlayBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--Icons from external web-->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="sound.gif" width="42px" height="21px" id="gif"> <span id="masterSongName">Lemonade - Diljit Dosanjh
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a69ee03952.js" crossorigin="anonymous"></script>
+    <script src="music.js"></script>
+
+</body>
+</html>
